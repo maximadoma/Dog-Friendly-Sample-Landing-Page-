@@ -1,0 +1,114 @@
+
+* {
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.section1 {
+    background-color: #0A9697;
+    padding-top: 80px;
+
+}
+
+.info {
+    font-size: larger;
+}
+
+.form-control {
+    border: 2px solid black;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+
+.dog1 {
+    background-image: url(assets/beagle.png);
+    height: 705px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.dog2 {
+    background-image: url(assets/dog-green.png);
+    border-radius: 10px;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+}
+
+.dog3 {
+    background-image: url(assets/dog-pink.png);
+    border-radius: 10px;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+}
+
+.dog4 {
+    background-image: url(assets/dog-orange.png);
+    border-radius: 10px;
+    height: 315px;
+    background-size: cover;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border: 0;
+}
+
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.085) 0px 3px 5px;
+}
+
+
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: #0A9697;
+    transition: 0.2s ease-in;
+}
+
+.nav-link.active:active{
+    color: #0A9697;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+
+.bg{
+    background-color: #0A9697;
+    background-position: center;
+    background-size: cover;
+    margin: 70px 0px 70px 0px;
+    border-radius: 10px;
+
+}
+
+.border{
+    height: 250px;
+    width: 3px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #e7e7e7;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.email{
+    text-decoration: none;
+    color: #0A9697;
+}
